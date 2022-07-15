@@ -48,7 +48,7 @@ const Carrinho = () => {
           />
           <button
             onClick={calculaFrete}
-            className="bg-colorPrimary rounded-lg uppercase px-3 py-2 hover:bg-colorHover"
+            className="bg-colorPrimary rounded-lg uppercase font-bold px-3 py-2 hover:bg-colorHover"
           >
             Calcular
           </button>
@@ -119,7 +119,7 @@ const Carrinho = () => {
             </button>
           </div>
         </div>
-        <button className="bg-colorPrimary rounded-lg uppercase px-3 py-2 hover:bg-colorHover">
+        <button className="bg-colorPrimary rounded-lg uppercase font-bold px-3 py-2 hover:bg-colorHover">
           Finalizar compra
         </button>
       </div>

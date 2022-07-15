@@ -30,11 +30,11 @@ const Produto = ({ id, foto, nome, descricao, preco, abv, ibu, ebc, ph }) => {
   }
 
   return (
-    <div className="w-[350px] grid grid-cols-2 sm:w-[240px] sm:block bg-white drop-shadow-[0_3px_2px_rgba(0,0,0,.2)] hover:drop-shadow-[0_6px_5px_rgba(0,0,0,.3)]">
+    <div className="w-[320px] grid grid-cols-[2fr_3fr] bg-white drop-shadow-[0_3px_2px_rgba(0,0,0,.2)] hover:drop-shadow-[0_6px_5px_rgba(0,0,0,.3)]">
       <div className="h-[200px] py-3 row-start-1 row-end-4">
         <img className="h-[100%] mx-auto" src={foto} alt="" />
       </div>
-      <div className="grid grid-cols-2 pt-2 sm:flex sm:gap-2 justify-center">
+      <div className="grid grid-cols-2 pt-2 justify-center">
         <span className="text-xs flex gap-1 items-center">
           ABV:{" "}
           <span className="text-base text-colorPrimary font-bold">{abv}</span>
@@ -52,9 +52,9 @@ const Produto = ({ id, foto, nome, descricao, preco, abv, ibu, ebc, ph }) => {
           <span className="text-base text-colorPrimary font-bold">{ph}</span>
         </span>
       </div>
-      <div className="col-start-2 pr-2 h-[140px] flex flex-col sm:px-3 justify-between sm:border-t-2 border-bgColorSecondary">
+      <div className="col-start-2 pr-2 h-[140px] flex flex-col justify-between">
         <div>
-          <h2 className="font-bold text-center p-2">{nome.slice(0, 25)}</h2>
+          <h2 className="font-bold py-2">{nome.slice(0, 25)}</h2>
           <p className="text-sm">{descricao}</p>
         </div>
         <div className="flex justify-between items-center">

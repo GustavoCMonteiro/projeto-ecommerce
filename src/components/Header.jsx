@@ -8,8 +8,8 @@ const Header = () => {
 
   return (
     <header>
-      <div className="bg-neutral-700 fixed top-0 left-0 right-0 z-10">
-        <div className="flex justify-between items-center max-w-[1200px] mx-auto py-4 px-2">
+      <div className="bg-neutral-500 fixed top-0 left-0 right-0 z-10 border-b-8 border-colorPrimary">
+        <div className="flex justify-between items-center max-w-[1200px] mx-auto py-3 px-2">
           <NavLink to="/" end>
             <img className="w-[250px]" src={logo} alt="" />
           </NavLink>

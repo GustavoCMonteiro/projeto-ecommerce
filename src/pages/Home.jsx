@@ -26,7 +26,7 @@ const Home = () => {
 
   return (
     <>
-      <section className="max-w-[1200px] mx-auto mt-32 mb-16">
+      <section className="max-w-[1200px] mx-auto mt-32 mb-16 lg:px-8">
         <div className="flex gap-2 justify-end my-5 mx-10">
           <button
             className={`w-6 ${pagina === 1 && "opacity-0"}`}
@@ -93,7 +93,7 @@ const Home = () => {
             </svg>
           </button>
         </div>
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 place-items-center gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 place-items-center gap-8">
           {data &&
             data.map((produto) => (
               <Produto
