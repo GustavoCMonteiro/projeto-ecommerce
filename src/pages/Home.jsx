@@ -16,6 +16,10 @@ const Home = () => {
     getProdutos().catch(console.error);
   }, [pagina]);
 
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pagina]);
+
   if (data === null) {
     return "";
   }
