@@ -16,7 +16,8 @@
  
 ## Descrição
 
-### Projeto desenvolvido com o objetivo de treinar os meus conhecimentos em React, e Tailwind, e também para servir de portfólio, demonstrando minhas habilidades na criação de uma página.
+### Projeto de um site ecommerce, delivery de cervjas, onde possui um carrinho de compras, exibição dos valores totais, parcelados, com desconto, e frete.
+### O site utiliza o local storage para guardar as informações do carrinho, mostrando sempre os items que foram deixados la pelo cliente, mesmo fechando o site e abrindo novamente.
 
 <br>
 <img height="500em" src="https://github.com/GustavoCMonteiro/projeto-ecommerce/blob/main/src/img/ezgif.com-gif-maker.gif"/>
@@ -25,8 +26,9 @@
 ## React
 
 ### Todo o projeto foi feito utilizando o React, foram criados alguns componentes para partes chave do projeto. 
+### Foi usado o React Routes para criar uma segunda página do carrinho, e modificar a URL do site.
 
-### Para o CSS foi utilizado somente o Tailwind, foi minha primeira vez utilizando essa ferramenta, e já gostei bastante de como ela funciona.
+### Para o CSS foi utilizado somente o Tailwind, utilizando grid e flexbox, deixando o site responsivo para todos os dispositivos.
 
 ### O projeto foi criado com a utilização da ferramenta Vite, onde facilita bastante toda a adição de ferramentas extras e dependências.
 
