@@ -19,7 +19,7 @@
 ### Projeto desenvolvido com o objetivo de treinar os meus conhecimentos em React, e Tailwind, e também para servir de portfólio, demonstrando minhas habilidades na criação de uma página.
 
 <br>
-<img height="500em" src="https://github.com/GustavoCMonteiro/projeto-rick-morty/blob/main/src/imgs/rick.gif"/>
+<img height="500em" src="https://github.com/GustavoCMonteiro/projeto-ecommerce/blob/main/src/img/ezgif.com-gif-maker.gif"/>
 <br>
 
 ## React
