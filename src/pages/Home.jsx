@@ -8,7 +8,7 @@ const Home = () => {
   React.useEffect(() => {
     const getProdutos = async () => {
       const produtos = await fetch(
-        `https://api.punkapi.com/v2/beers?page=${pagina}&per_page=28`
+        `https://api.punkapi.com/v2/beers?page=${pagina}&per_page=30`
       );
       const json = await produtos.json();
       setData(json);
