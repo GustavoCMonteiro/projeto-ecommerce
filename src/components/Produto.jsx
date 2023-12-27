@@ -55,7 +55,7 @@ const Produto = ({ id, foto, nome, descricao, preco, abv, ibu, ebc, ph }) => {
       <div className="col-start-2 pr-2 h-[140px] flex flex-col justify-between">
         <div>
           <h2 className="font-bold py-2">{nome.slice(0, 25)}</h2>
-          <p className="text-sm">{descricao}</p>
+          <p className="text-sm">{descricao}a</p>
         </div>
         <div className="flex justify-between items-center">
           <p className="text-xs">
